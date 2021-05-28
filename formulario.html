@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Formulario con JS</title>
+	</head>
+	<body>
+		<form>
+			<input
+				type="text"
+				name="nombre-usuario"
+				id="nombre-usuario"
+				placeholder="Ingresa tu/tus nombre/s: "
+			/>
+			<input
+				type="text"
+				name="apellido-usuario"
+				id="apellido-usuario"
+				placeholder="Ingresa tu/tus apellido/s: "
+			/>
+			<input
+				type="number"
+				name="edad-usuario"
+				id="edad-usuario"
+				placeholder="Ingresa tu edad: "
+			/>
+			<button type="submit" id="enviar-datos">Enviar datos</button>
+
+			<h1 id="saludar-usuario">Bienvenido!</h1>
+
+			<div id="resultados-usuario">Hola</div>
+		</form>
+		<script src="formulario.js"></script>
+	</body>
+</html>
